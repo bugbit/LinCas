@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bugbit.LinCas", "Bugbit.LinCas", "{F21CA3B3-3B48-4A37-9A62-D75F6FF397D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plataforms", "Plataforms", "{A81510B0-DA77-458F-BDE3-C732A525164F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3F741B0E-5BB7-4980-BCCA-86BA3B55F68F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Bugbit.LinCas.Core", "Bugbit.LinCas.Core\Bugbit.LinCas.Core.shproj", "{0E8907A5-8237-43AB-911A-E25B3AC7A8FC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Bugbit.LinCas.Math.Core", "Bugbit.LinCas.Math.Core\Bugbit.LinCas.Math.Core.shproj", "{F57F71A8-1641-4B0B-9CA9-BA6D7C2EE75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests1", "Tests1\Tests1.csproj", "{D109C5E9-6E53-4C0E-ABAA-93F7869C86AF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Bugbit.LinCas.Core\Bugbit.LinCas.Core.projitems*{0e8907a5-8237-43ab-911a-e25b3ac7a8fc}*SharedItemsImports = 13
+		Bugbit.LinCas.Core\Bugbit.LinCas.Core.projitems*{d109c5e9-6e53-4c0e-abaa-93f7869c86af}*SharedItemsImports = 4
+		Bugbit.LinCas.Math.Core\Bugbit.LinCas.Math.Core.projitems*{d109c5e9-6e53-4c0e-abaa-93f7869c86af}*SharedItemsImports = 4
+		Bugbit.LinCas.Math.Core\Bugbit.LinCas.Math.Core.projitems*{f57f71a8-1641-4b0b-9ca9-ba6d7c2ee75b}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D109C5E9-6E53-4C0E-ABAA-93F7869C86AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D109C5E9-6E53-4C0E-ABAA-93F7869C86AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D109C5E9-6E53-4C0E-ABAA-93F7869C86AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D109C5E9-6E53-4C0E-ABAA-93F7869C86AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E8907A5-8237-43AB-911A-E25B3AC7A8FC} = {F21CA3B3-3B48-4A37-9A62-D75F6FF397D9}
+		{F57F71A8-1641-4B0B-9CA9-BA6D7C2EE75B} = {F21CA3B3-3B48-4A37-9A62-D75F6FF397D9}
+		{D109C5E9-6E53-4C0E-ABAA-93F7869C86AF} = {3F741B0E-5BB7-4980-BCCA-86BA3B55F68F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAB19785-3554-4527-A7B0-BA200DE5916C}
+	EndGlobalSection
+EndGlobal
