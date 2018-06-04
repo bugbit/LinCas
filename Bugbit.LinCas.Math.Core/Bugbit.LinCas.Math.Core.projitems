@@ -9,5 +9,6 @@
     <Import_RootNamespace>Bugbit.LinCas.Math</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BigDecimal.cs" />
   </ItemGroup>
 </Project>
